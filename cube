@@ -1,0 +1,8 @@
+N1=int(input("Enter the starting value: "))
+N2=int(input("Enter the ending value: "))
+print("The cube value:")
+cube=[]
+for i in range(N1,N2+1):
+    A=i*i*i
+    cube.append(A)
+print(cube)

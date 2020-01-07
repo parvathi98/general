@@ -1,0 +1,9 @@
+N1=int(input("Enter the starting year: "))
+N2=int(input("Enter the ending year:"))
+print("The leap year: ")
+year=[]
+for i in range(N1,N2+1):
+    if(i%4)==0:
+        year.append(i)
+print(year)
+

@@ -1,0 +1,14 @@
+A=int(input("Enter the starting value:"))
+B=int(input("Enter the ending value:"))
+print("The even numbers are: ")
+even=[]
+for i in range(A,B+1):
+    if(i%2==0):
+        even.append(i)
+print(even)
+print("The odd numbers are: ")
+odd=[]
+for i in range (A,B+1):
+    if(i%2!=0):
+      odd.append(i)
+print(odd)    
